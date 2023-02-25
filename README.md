@@ -10,7 +10,8 @@ After the initial setup of the app, seed the databse.
 #### Request parameters
 * #### lang 
   * (?lang=en/fr/de) - specifies language in which data will be returned.
-  * Possible options are as listed above (en - English, fr - French, de - German)
+  * Possible options are as listed above (en - English, fr - French, de - German).
+  * lang is not required because of the fallback to en.
 * #### page 
   * (?page=3) - defines the page (3) that will be returned.
 * #### per_page
